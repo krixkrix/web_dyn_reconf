@@ -308,7 +308,7 @@ class MyApp(App):
             width=SLIDER_SIZE, height=FIELD_HEIGHT, single_line=True)
         text_input.set_text(current_value)
 
-        text_input.set_on_enter_listener(callback_cb)
+        text_input.set_on_change_listener(callback_cb)
 
         # set_button = gui.Button(80, DEFAULT_HEIGHT, text="Set")
         # set_button.set_on_click_listener(self, callback_cb_name)
